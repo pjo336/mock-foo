@@ -1,6 +1,6 @@
 {
   "name": "mock-foo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A built in mock API to use in development",
   "main": "src/index.js",
   "scripts": {
