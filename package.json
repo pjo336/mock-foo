@@ -1,0 +1,21 @@
+{
+  "name": "mock-foo",
+  "version": "0.0.1",
+  "description": "A built in mock API to use in development",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Johnston <pemjohns@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-plugin-mocha": "^5.3.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sinon": "^7.3.2"
+  }
+}
