@@ -1,10 +1,13 @@
 {
   "name": "mock-foo",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "A built in mock API to use in development",
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint src/**/*.js",
+    "--preversion": "npm test && npm run test:e2e",
+    "--version": "rm -rf build && npm run build",
+    "postversion": "git push && git push --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Peter Johnston <pemjohns@gmail.com>",
